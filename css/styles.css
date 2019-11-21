@@ -1,0 +1,25 @@
+@import "all.min.css";
+
+body {
+  background-color: #eee;
+}
+
+.fondo-formulario {
+  background-image: url("img/typewriter.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+@media (min-wdth: 576px) {
+  .fondo-formulario {
+    background-attachment: fixed;
+}
+
+}
+
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
